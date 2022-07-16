@@ -30,7 +30,7 @@
 	<hr class="border text-slate-500 mt-1 mb-2" />
 
 	<div>
-		<Project title="Blurt">
+		<Project title="Blurt" name="blurt">
 			<p class="mb-2">
 				A satirical micro-tweeting platform with zero security. A Blurt is like a Tweet limited to
 				14 characters. Every user is "verified" but no accounts are password protected.
@@ -38,10 +38,10 @@
 			<p class="mb-2">Written using Javascript, Sveltekit, Prisma ORM and TailwindCSS.</p>
 		</Project>
 
-		<Project title="Volunteer Hour Tracking">
+		<Project title="Volunteer Hour Tracking" name="gorba" desktop={false}>
 			<p class="mb-2">
-				A basic app to track volunteer hours for the local mountain bike club. Uses a simple GUI for
-				efficient user experience.
+				A mobile-only app to track volunteer hours for the local mountain bike club. Uses a simple,
+				touch-friendly GUI for efficient user experience.
 			</p>
 			<p class="mb-2">Written using JavaScript, Sveltekit, Prisma ORM and TailwindCSS.</p>
 		</Project>

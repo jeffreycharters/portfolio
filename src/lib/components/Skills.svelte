@@ -36,6 +36,7 @@
 	<div>
 		<Skill text="HTML 5" icon="html5" />
 		<Skill text="CSS / Sass" icon="css" />
+		<Skill text="Tailwind CSS" icon="tailwind" />
 		<Skill text="Typescript" icon="typescript" />
 		<Skill text="Python | Flask | Django" icon="python" />
 		<Skill text="React | Redux" icon="react" />

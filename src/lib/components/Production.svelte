@@ -33,11 +33,11 @@
 	<hr class="border text-slate-500 mt-1 mb-2" />
 
 	<div>
-		<Project title="Oligo Synthesis and Sequencing">
+		<Project title="Oligo Synthesis and Sequencing" name="oliseq" mobile={false}>
 			<p class="mb-2">Rewrote a legacy application from ColdFusion to Python/Django.</p>
 			<p class="mb-2">
-				App is used daily by dozens or scientists to order DNA products, request sequencing and to
-				download sequenced DNA results.
+				App is used daily by scientists to order DNA products, request sequencing and to download
+				sequenced DNA results.
 			</p>
 			<p class="mb-2">Written using Python, Django and htmx for asynchronous requests.</p>
 		</Project>
