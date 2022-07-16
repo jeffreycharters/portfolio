@@ -35,6 +35,9 @@
 
 	<div>
 		<Skill text="HTML 5" icon="html5" />
-		<Skill text="Svelte" icon="svelte" />
+		<Skill text="CSS / Sass" icon="css" />
+		<Skill text="Typescript" icon="typescript" />
+		<Skill text="React / Redux" icon="react" />
+		<Skill text="Svelte / Sveltekit" icon="svelte" />
 	</div>
 </div>

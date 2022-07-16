@@ -59,7 +59,7 @@
 			<span class="text-gray-600 font-semibold">Guelph, Ontario</span>
 			<CanadaFlag />
 		</div>
-		<p class="text-sm font-normal mb-4">
+		<p class="text-sm font-normal mb-4 xl:text-lg">
 			Self-taught dev with 3+ years of practical experience. Looking for Canada-based remote work.
 		</p>
 	</div>
