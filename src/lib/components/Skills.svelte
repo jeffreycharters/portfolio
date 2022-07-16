@@ -37,7 +37,10 @@
 		<Skill text="HTML 5" icon="html5" />
 		<Skill text="CSS / Sass" icon="css" />
 		<Skill text="Typescript" icon="typescript" />
-		<Skill text="React / Redux" icon="react" />
-		<Skill text="Svelte / Sveltekit" icon="svelte" />
+		<Skill text="Python | Flask | Django" icon="python" />
+		<Skill text="React | Redux" icon="react" />
+		<Skill text="Svelte | Sveltekit" icon="svelte" />
+		<Skill text="Linux | nginx" icon="server" />
+		<Skill text="SQL | My SQL | postgreSQL" icon="db" />
 	</div>
 </div>

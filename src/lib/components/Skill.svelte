@@ -24,6 +24,67 @@
 				<path d="M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z" />
 				<path d="M15.5 8h-7l.5 4h6l-.5 3.5l-2.5 .75l-2.5 -.75l-.1 -.5" />
 			</svg>
+		{:else if icon === 'db'}
+			<svg
+				xmlns="http://www.w3.org/2000/svg"
+				class="icon icon-tabler icon-tabler-database"
+				width="20"
+				height="20"
+				viewBox="0 0 24 24"
+				stroke-width="1.75"
+				stroke="currentColor"
+				fill="none"
+				stroke-linecap="round"
+				stroke-linejoin="round"
+			>
+				<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+				<ellipse cx="12" cy="6" rx="8" ry="3" />
+				<path d="M4 6v6a8 3 0 0 0 16 0v-6" />
+				<path d="M4 12v6a8 3 0 0 0 16 0v-6" />
+			</svg>
+		{:else if icon === 'server'}
+			<svg
+				xmlns="http://www.w3.org/2000/svg"
+				class="icon icon-tabler icon-tabler-server-2"
+				width="20"
+				height="20"
+				viewBox="0 0 24 24"
+				stroke-width="1.75"
+				stroke="currentColor"
+				fill="none"
+				stroke-linecap="round"
+				stroke-linejoin="round"
+			>
+				<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+				<rect x="3" y="4" width="18" height="8" rx="3" />
+				<rect x="3" y="12" width="18" height="8" rx="3" />
+				<line x1="7" y1="8" x2="7" y2="8.01" />
+				<line x1="7" y1="16" x2="7" y2="16.01" />
+				<path d="M11 8h6" />
+				<path d="M11 16h6" />
+			</svg>
+		{:else if icon === 'python'}
+			<svg
+				xmlns="http://www.w3.org/2000/svg"
+				class="icon icon-tabler icon-tabler-brand-python"
+				width="20"
+				height="20"
+				viewBox="0 0 24 24"
+				stroke-width="1.75"
+				stroke="currentColor"
+				fill="none"
+				stroke-linecap="round"
+				stroke-linejoin="round"
+			>
+				<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+				<path d="M12 9h-7a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h3" />
+				<path d="M12 15h7a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2h-3" />
+				<path
+					d="M8 9v-4a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v5a2 2 0 0 1 -2 2h-4a2 2 0 0 0 -2 2v5a2 2 0 0 0 2 2h4a2 2 0 0 0 2 -2v-4"
+				/>
+				<line x1="11" y1="6" x2="11" y2="6.01" />
+				<line x1="13" y1="18" x2="13" y2="18.01" />
+			</svg>
 		{:else if icon === 'css'}
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
