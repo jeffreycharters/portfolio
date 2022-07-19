@@ -1,12 +1,19 @@
 <script lang="ts">
 	import Project from '$lib/components/Project.svelte';
-
 	import { rotator } from '$lib/assets/utils';
+	import { onMount } from 'svelte';
+
 	const max = 3;
-	const rotate: string = rotator(max);
+	let rotate: string;
+	onMount(() => {
+		rotate = rotator(max);
+	});
 </script>
 
-<div class="border border-gray-400 my-2 w-11/12 mx-auto mb-4 p-2 rounded-md " style={rotate}>
+<div
+	class="border border-gray-400 my-2 w-11/12 mx-auto md:ml-0 mb-4 p-2 rounded-md max-w-lg"
+	style={rotate}
+>
 	<div class="flex items-center font-semibold px-4">
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
@@ -48,6 +55,7 @@
 			name="gorba"
 			desktop={false}
 			tags={['javascript', 'sveltekit', 'prisma.io', 'tailwind']}
+			ghLink="jeffreycharters/gorba-hours"
 		>
 			<p class="mb-2">
 				A mobile-only app to track volunteer hours for the local mountain bike club. Uses a simple,

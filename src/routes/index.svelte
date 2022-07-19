@@ -8,7 +8,7 @@
 
 <Header />
 
-<div class="max-w-lg mx-auto">
+<div class="max-w-screen-sm mx-auto content">
 	<AboutMe />
 	<Skills />
 

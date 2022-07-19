@@ -54,7 +54,7 @@
 				<img
 					src={srcDesktop}
 					alt="Screen capture of the {name} website showing on a desktop display"
-					class="desktop-image border-2 rounded-sm border-slate-800 mt-4"
+					class="desktop-image border-2 rounded-sm border-slate-800 mt-4 shadow-lg"
 				/>
 			{/if}
 		</div>

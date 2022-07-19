@@ -6,7 +6,10 @@
 	const rotate: string = rotator(max);
 </script>
 
-<div class="border border-gray-400 my-2 w-11/12 mx-auto mb-4 p-2 rounded-md " style={rotate}>
+<div
+	class="border border-gray-400 my-2 w-11/12 mx-auto md:ml-auto md:mr-0 mb-4 p-2 rounded-md max-w-lg"
+	style={rotate}
+>
 	<div class="flex items-center font-semibold px-4">
 		<svg
 			xmlns="http://www.w3.org/2000/svg"

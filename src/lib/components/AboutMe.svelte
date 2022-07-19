@@ -8,7 +8,7 @@
 </script>
 
 <div
-	class="border border-gray-400 my-2 w-11/12 mx-auto mb-4 p-2 rounded-md max-w-lg bg-white"
+	class="border border-gray-400 my-2 w-11/12 mx-auto md:ml-0 mb-4 p-2 rounded-md max-w-lg bg-white"
 	style={rotate}
 >
 	<div class="flex items-center font-semibold px-4">
@@ -59,7 +59,8 @@
 			<CanadaFlag />
 		</div>
 		<p class="text-sm font-normal mb-4 xl:text-lg">
-			Self-taught dev with 3+ years of practical experience. Looking for Canada-based remote work.
+			Self-taught full-stack web developer with 3+ years of practical experience. Looking for
+			Canada-based remote work.
 		</p>
 	</div>
 
