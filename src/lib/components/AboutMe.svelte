@@ -8,7 +8,7 @@
 </script>
 
 <div
-	class="border border-gray-400 my-2 w-11/12 mx-auto md:ml-0 mb-4 p-2 rounded-md max-w-lg bg-white"
+	class="border border-gray-400 my-2 w-11/12 mx-auto md:ml-0 mb-4 p-2 rounded-md max-w-lg bg-white lg:col-span-4 lg:col-start-4 lg:row-start-1 lg:row-span-1 lg:justify-self-center lg:m-0 lg:mt-4"
 	style={rotate}
 >
 	<div class="flex items-center font-semibold px-4">
@@ -58,7 +58,7 @@
 			<span class="text-gray-600 font-semibold">Guelph, Ontario</span>
 			<CanadaFlag />
 		</div>
-		<p class="text-sm font-normal mb-4 xl:text-lg">
+		<p class="text-sm font-normal mb-4">
 			Self-taught full-stack web developer with 3+ years of practical experience. Looking for
 			Canada-based remote work.
 		</p>
