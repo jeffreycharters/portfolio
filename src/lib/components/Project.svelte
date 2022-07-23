@@ -34,7 +34,7 @@
 			<img
 				src={srcDevice}
 				alt="Screen capture of the {name} website showing on a mobile device"
-				class="device-image w-24 float-right ml-4"
+				class="device-image w-24 float-right ml-4 my-2"
 			/>
 		{/if}
 		<slot />
