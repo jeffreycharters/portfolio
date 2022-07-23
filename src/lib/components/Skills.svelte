@@ -7,7 +7,7 @@
 </script>
 
 <div
-	class="border border-gray-400 my-2 w-11/12 mx-auto md:ml-auto md:mr-0 mb-4 p-2 rounded-md max-w-lg bg-white lg:col-span-2 lg:row-start-1 lg:col-start-1 lg:row-span-2"
+	class="border border-gray-400 my-2 w-11/12 mx-auto md:ml-auto md:mr-0 mb-4 p-2 rounded-md max-w-lg bg-white"
 	style={rotate}
 >
 	<div class="flex items-center font-semibold px-4">

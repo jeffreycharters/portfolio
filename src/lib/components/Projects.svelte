@@ -11,7 +11,7 @@
 </script>
 
 <div
-	class="border border-gray-400 my-2 w-11/12 mx-auto md:ml-0 mb-4 p-2 rounded-md max-w-lg lg:col-span-4 lg:col-start-1 lg:row-start-4 lg:row-span-2 lg:max-w-none"
+	class="border border-gray-400 my-2 w-11/12 mx-auto md:ml-0 mb-4 p-2 rounded-md max-w-lg"
 	style={rotate}
 >
 	<div class="flex items-center font-semibold px-4">

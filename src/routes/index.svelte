@@ -8,9 +8,7 @@
 
 <Header />
 
-<div
-	class="max-w-screen-sm mx-auto content lg:grid lg:grid-cols-7 lg:items-start lg:max-w-screen-xl lg:grid-rows-9"
->
+<div class="max-w-screen-sm mx-auto content">
 	<AboutMe />
 	<Skills />
 
