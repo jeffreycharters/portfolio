@@ -6,7 +6,7 @@
 		"build": "vite build",
 		"package": "vite package",
 		"preview": "vite preview",
-		"prepare": "vite sync",
+		"prepare": "svelte-kit sync",
 		"check": "svelte-check --tsconfig ./jsconfig.json",
 		"check:watch": "svelte-check --tsconfig ./jsconfig.json --watch",
 		"test": "playwright test",
@@ -15,6 +15,7 @@
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.21.0",
+		"@sveltejs/adapter-vercel": "next",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
 		"autoprefixer": "^10.4.7",
